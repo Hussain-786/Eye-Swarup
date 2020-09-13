@@ -1,0 +1,168 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+
+/* eye-swarup logo */
+
+a img{
+  border-radius: 50%;
+}
+
+/* blue navbar */
+
+#menuBar .container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.collapse .blue-navbar .nav-item{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.3rem;
+}
+
+/* front banner */
+/*
+.banner-image{
+width: 100%;
+height: 35rem;
+} */
+
+/* consultation button */
+
+#large-btn{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+#large-btn a:hover{
+  text-decoration: none;
+}
+
+.fa{
+  padding-right: 1rem;
+}
+
+
+/* About us */
+
+/* #aboutUs .container-fluid{
+  padding: 2rem;
+  background-color: #00b4d8;
+  font-size: 1rem;
+}
+
+#aboutUs .content{
+  color:black;
+  background-color: white;
+  padding: 2rem;
+}
+
+.aboutus-image img{
+  padding: 3rem;
+}
+*/
+
+/* carousel */
+.carousel-image{
+  width: 100%;
+  height: 45rem;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* speciality */
+
+#speciality{
+  background-color: #00b4d8;
+  text-align: center;
+  padding: 1rem 0;
+  color: white;
+}
+
+#speciality .carousel-item{
+  padding: 1rem 10%;
+}
+
+.speciality-images{
+  width: 15rem;
+  height: 15rem;
+  padding: 1.5rem 0.5rem;
+}
+
+.speciality-text{
+  text-align: left;
+  padding: 0.5rem;
+}
+
+/* boxes */
+
+#boxes{
+  margin: 3rem 0;
+  text-align: center;
+}
+
+#boxes h2{
+  padding: 3% 5%;
+}
+.box-section{
+  background-color: #6096ba;
+  color: #fff;
+  height: auto;
+  padding: 3% 5%;
+}
+
+.blue-box{
+  border: 1px solid white;
+  padding: 15px;
+  font-size: 3rem;
+}
+/* doctors */
+
+#doctors{
+  background-color: #e5e5e5;
+  margin: 3rem 0;
+}
+
+.column{
+  padding: 3% 10%;
+  margin: 0 auto;
+}
+
+#doctors h5{
+  text-align: center;
+}
+
+#view{
+  margin-left: 90%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* contact */
+
+#contact{
+  margin: 3rem 0 0 0;
+  background-color: #0077b6;
+  color: white;
+  padding: 4%;
+  text-align: center;
+}
+
+.footer-icon{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem;
+  color: white;
+}
+
+.footer-icon:hover{
+  color: black;
+}
+#contact p{
+  padding: 3% 0 0 0;
+  font-size: 1.5rem;
+}
