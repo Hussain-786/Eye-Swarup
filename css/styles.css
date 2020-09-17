@@ -237,7 +237,8 @@ body {
   }
 
   #map iframe{
-    padding: 0;
+    max-width: 20rem;
+    max-height: 15rem;
   }
 
 }
