@@ -11,6 +11,11 @@ body {
   padding-right: 0;
 }
 
+#carousel-slides .container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .collapse .blue-navbar .nav-item {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -176,6 +181,11 @@ body {
   margin: 3rem 0;
 }
 
+#blogs-testimonials .container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 #testimonials img{
  max-width: 10rem;
  max-height: 10rem;
@@ -225,14 +235,9 @@ body {
   }
 
   .testimonial-text{
-    max-width: 20rem;
+    max-width: 16rem;
     margin: 2rem auto;
     text-align: center;
-
-  }
-
-  #map iframe{
-    padding: 15% 15% 0 15%;
 
   }
 }
