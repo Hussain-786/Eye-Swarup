@@ -1,7 +1,7 @@
-var i = 0;
 
 $("#more").hide();
 $(window).resize(function() {
+  var i = 0;
   if(window.innerWidth <=800){
     $("#view-more").hide();
     $("#more").show();
@@ -16,6 +16,10 @@ $(window).resize(function() {
         i = 0;
       }
     });
+  }
+  else{
+    $("#view-more").show();
+    $("#more").hide();
   }
 });
 
