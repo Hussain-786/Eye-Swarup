@@ -6,6 +6,7 @@ body {
 .navbar{
   background-color: #197278;
 }
+
 #menuBar .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -17,8 +18,8 @@ body {
 }
 
 .collapse .blue-navbar .nav-item {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-size: 1.3rem;
 }
 
@@ -41,7 +42,7 @@ body {
 }
 
 .fa {
-  padding-right: 1rem;
+  padding-right: 0.5rem 0;
 }
 
 /* font-family: 'Montserrat', sans-serif;
@@ -101,26 +102,32 @@ body {
 }
 
 .box-section {
-  background-color: #6096ba;
-  color: #fff;
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   height: auto;
   padding: 3% 5%;
 }
 
 .blue-box {
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 15px;
   font-size: 2rem;
 }
 
 /* doctors */
+
 #doctors {
-  background-color: #edddd4;
   padding: 3rem 0.5rem;
+  background-image: url("../images/background1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #doctors h5, h1 {
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .card{
@@ -128,8 +135,6 @@ body {
 }
 
 .content {
-  color: black;
-  background-color: white;
   padding: 1.2rem;
   text-align: left;
   line-height: 2;
@@ -145,31 +150,6 @@ body {
 #more{
   color: blue;
   text-decoration: none;
-}
-
-/* contact */
-#contact {
-  margin: 3rem 0 0 0;
-  background-color: #0077b6;
-  color: white;
-  padding: 4%;
-  text-align: center;
-}
-
-.footer-icon {
-  max-width: 1.5rem;
-  max-height: 1.5rem;
-  margin: 1rem;
-  color: white;
-}
-
-.footer-icon:hover {
-  color: black;
-}
-
-#contact p {
-  padding: 3% 0 0 0;
-  font-size: 1.5rem;
 }
 
 /* Testimonials */
@@ -206,9 +186,46 @@ body {
   margin: 3rem 0;
 }
 
+/* form */
+
+#form{
+
+}
+
+/* contact */
+#contact {
+  margin: 3rem 0 0 0;
+  background-color: #0077b6;
+  color: white;
+  padding: 4%;
+  text-align: center;
+}
+
+.footer-icon {
+  max-width: 1.3rem;
+  max-height: 1.3rem;
+  margin: 1rem;
+  color: white;
+}
+
+.footer-icon:hover {
+  color: black;
+}
+
+#contact p {
+  padding: 3% 0 0 0;
+  font-size: 1rem;
+}
+
 
 /* media queries */
 @media (max-width: 800px) {
+
+  img.navbar-brand{
+    max-width: 6rem;
+    max-height: 6rem;
+  }
+
   .blue-box {
     border: 1px solid white;
     padding: 15px;
@@ -216,11 +233,17 @@ body {
   }
 
   .btn{
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
 
   #boxes h2 {
     font-size: 1.2rem;
+  }
+
+  .aboutus-image img {
+    padding: 0 0.8rem;
+    max-width: 10rem;
+    max-height: 10rem;
   }
 
   #testimonials img{
